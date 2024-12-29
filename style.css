@@ -6,19 +6,21 @@
 
 body{
     background-color: rgb(104, 104, 104);
+    
 }
-.maincontainer{
-    margin: 0 0.5rem;
+.mainContainer{
+    display: flex;
+    justify-content: center;
 }
 .calculator{
-    width: 21rem;
+    width: 19rem;
     min-height: 10rem;
     background: linear-gradient(45deg, rgb(255, 52, 194), rgb(31, 169, 255));
     /* background-color: aliceblue; */
     padding:  0 2rem;
     border-radius: 1rem;
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 0.5rem 0.5rem;
 }
 .calculator h2{
     /* background-color: rgb(202, 145, 255); */
