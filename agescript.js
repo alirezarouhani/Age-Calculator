@@ -1,5 +1,7 @@
 let userInput = document.getElementById("date");
 let ageResult = document.querySelector(".ageResult");
+let detailsResult = document.querySelector(".detailsResult");
+
 
 function calculateDateDifference(date1, date2 = new Date()) {
 // Ensure date1 is always the earlier date
@@ -62,5 +64,8 @@ function result(){
     }else{
         ageResult.innerHTML = `You are ${outcome.years} years old!`;
     }
-    
+    detailsResult.innerHTML = `More specifically: 
+    <br> As of today ${todayDate.getDate()}/${todayDate.getMonth() + 1}/${todayDate.getFullYear()} you are:
+    <br> ${outcome.years} year(s) and <br> ${outcome.months} month(s) and<br> ${outcome.days} day(s) <br> You have lived a total of ${outcome.totalDays} days!`
+    detailsResult.style.padding = "0 0 3.5rem 0";
 }   
