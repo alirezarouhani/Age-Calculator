@@ -66,6 +66,7 @@ function result(){
     }
     detailsResult.innerHTML = `More specifically: 
     <br> As of today ${todayDate.getDate()}/${todayDate.getMonth() + 1}/${todayDate.getFullYear()} you are:
-    <br> ${outcome.years} year(s) and <br> ${outcome.months} month(s) and<br> ${outcome.days} day(s) <br> You have lived a total of ${outcome.totalDays} days!`
+    <br> ${outcome.years} year(s) and <br> ${outcome.months} month(s) and<br> ${outcome.days} day(s) <br>
+    You have lived a total of ${outcome.totalDays -1} days!`
     detailsResult.style.padding = "0 0 3.5rem 0";
 }   
