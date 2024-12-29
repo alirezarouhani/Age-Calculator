@@ -11,10 +11,11 @@ body{
     background-color: rgb(104, 104, 104);
 }
 .calculator{
-    width: 24rem;
+    width: 21rem;
     min-height: 10rem;
     background: linear-gradient(45deg, rgb(255, 52, 194), rgb(31, 169, 255));
     /* background-color: aliceblue; */
+    padding:  0 2rem;
     border-radius: 1rem;
     text-align: center;
     margin: 0.5rem auto;
@@ -26,7 +27,7 @@ body{
 }
 .calculate-box{
     /* background-color: blue; */
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
     display: flex;
     justify-content: center;
     align-items: center;
