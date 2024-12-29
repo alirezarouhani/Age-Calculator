@@ -12,26 +12,18 @@
             <h2>Age Calculator</h2>
             <div class="calculate-box">
                 <input id="date" type="date" placeholder="dd-mm-yyyy">
-                <button onclick="calculateAge()">calculate</button>
+                <button onclick="result()">calculate</button>
+            </div>
+            <div class="result">
+                <h2 class="ageResult"></h2>
+                <p class="detailsResult"></p>
             </div>
         </div>
     </div>
 
-    <script>
-        let userInput = document.getElementById("date");
-
-
-        //to exclude future dates
-        userInput.max = new Date().toISOString().split("T")[0];
-
-        const calculateAge = ()=>{
-            let birthDate = new Date(userInput.value);
-            let today = new Date();
-
-            console.log(today);
-        }
-
-    </script>
+    <script src="agescript.js"></script>
     
 </body>
 </html>
+
+

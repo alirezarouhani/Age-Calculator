@@ -3,11 +3,15 @@
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body{
+    background-color: rgb(104, 104, 104);
+}
 .maincontainer{
-    background-color: beige;
+    background-color: rgb(104, 104, 104);
 }
 .calculator{
-    width: 25rem;
+    width: 24rem;
     min-height: 25rem;
     background: linear-gradient(45deg, rgb(255, 120, 215), rgb(121, 203, 255));
     border-radius: 1rem;
@@ -45,4 +49,10 @@
     padding: 0.5rem 1rem;
     /* max-height: 2.6rem; */
     background-color: rgb(0, 255, 234);
+    cursor: pointer;
+}
+
+.calculate-box button:hover{
+    background-color: rgb(0, 211, 193);
+    color: rgb(255, 255, 255);
 }
